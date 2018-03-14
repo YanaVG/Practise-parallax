@@ -1,0 +1,21 @@
+#bg {
+	background: url(img/bg.png) no-repeat top center;
+	height: 433px;
+	margin-top: 30px;
+	width: 100%;
+}
+.water{
+	height: 200px;
+	margin-top: 80px;
+	margin-left: 500px;
+}
+.l1{
+	
+	margin-top: 30px;
+}
+#scene{
+	margin-left: 50px;
+}
+.l2{
+padding-left: 50px;	
+}
