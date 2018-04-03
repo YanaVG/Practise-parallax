@@ -1,0 +1,22 @@
+.page-top .image__getInTouch {
+	background: url(../img/get_in_touch.png) no-repeat center;
+	background-size: cover; 
+}
+.js-letter a img {
+	height: 45px;
+	margin-right: 2rem;
+	margin-top: 2rem;
+}
+.js-letter a {
+    margin-bottom: 3rem;	
+}
+.js-letter li a {
+    color: #fff;
+    font-size: 2.8rem;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    
+}
