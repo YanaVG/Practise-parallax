@@ -1,0 +1,73 @@
+.page-top .image__reile {
+background : url(../img/kim-italyan.Jpeg) center no-repeat;
+background-size : cover;
+}
+.fashion_container {
+height : auto;
+width : 100%;
+margin-top : 50px;
+}
+.fashion__list {
+width : 47%;
+}
+.fashion__list-container {
+margin-top : 5rem;
+display : flex;
+flex-wrap : wrap;
+justify-content : space-between;
+}
+.img__fashion img {
+box-shadow : 0 5px 124px -30px rgba(7, 33, 66, 0.5);
+}
+.img__fashion img:hover {
+border-radius : 70%;
+}
+.small-title__season {
+font-size : 1.2rem;
+text-align : center;
+}
+.small-title__fashion:hover {
+transform : scale(1.1);
+}
+.small-title__fashion, .img__fashion {
+text-align : center;
+}
+.fashion__list li {
+margin-bottom : 3rem;
+}
+.back-btn-wrap {
+text-align : center;
+}
+.back-btn {
+display : inline-block;
+font-size : 3.2rem;
+color : #020b16;
+letter-spacing : 0.2em;
+position : relative;
+transition : 0.5s;
+transform : translate3d(44px,0,0);
+}
+.back-btn:before {
+content : "";
+width : 24px;
+height : 1px;
+background : #020b16;
+position : absolute;
+top : 0;
+bottom : 0;
+left : -88px;
+margin : auto;
+transition : 0.5s;
+}
+.back-btn:after {
+content : "";
+width : 64px;
+height : 2px;
+background : #020b16;
+position : absolute;
+top : 0;
+bottom : 0;
+left : -88px;
+margin : auto;
+transition : 0.5s;
+}

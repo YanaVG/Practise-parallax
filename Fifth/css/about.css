@@ -1,0 +1,252 @@
+.page-top .image__about {
+background : url(../img/success2.png) left no-repeat;
+background-size : cover;
+}
+.page-top .image {
+display : block;
+position : relative;
+top : 0;
+width : 50%;
+height : 100%;
+margin : 0 0 0 auto;
+box-shadow : none;
+}
+.barba-container {
+width : 100%;
+height : auto;
+}
+.wrapper_who {
+height : auto;
+width : 100%;
+margin-top : 7rem;
+}
+.who {
+width : 100%;
+}
+.who_img img {
+box-shadow : 0 63px 154px -25px rgba(7, 33, 66, 0.5);
+}
+.text .heading-num {
+position : absolute;
+left : 0;
+top : 0;
+}
+.heading-num {
+font-size : 3rem;
+font-weight : bold;
+color : #ff4d5a;
+position : relative;
+padding-left : 6.2rem;
+padding-right : 2.2rem;
+font-family : 'Helvetica';
+line-height : 1.1;
+}
+.heading-num:after {
+content : "";
+width : 4.8rem;
+height : 2px;
+background : #020b16;
+position : absolute;
+top : 0;
+bottom : 0;
+left : 0;
+margin : auto;
+}
+.text__wrap--top {
+align-items : flex-start;
+margin-top : 20px;
+}
+.text__wrap {
+display : flex;
+justify-content : space-between;
+align-items : center;
+padding : 0 5%;
+box-sizing : content-box;
+max-width : 1200px;
+width : 100%;
+margin : auto;
+}
+.who__wrap .name_en {
+font-weight : bold;
+font-size : 2rem;
+}
+.who__wrap .who__text {
+line-height : 1.5;
+font-size : 0.8em;
+width : 60%;
+display : flex;
+flex-wrap : wrap;
+margin-top : 3%;
+margin-bottom : 5%;
+}
+.heading--top {
+position : relative;
+bottom : 16rem;
+left : 0;
+}
+.passion-container, .skill-set {
+margin-top : 5rem;
+}
+.content--mlarge {
+margin-top : 5rem;
+}
+.passion__list {
+display : flex;
+flex-wrap : wrap;
+justify-content : space-between;
+}
+.passion__item {
+width : 29%;
+}
+.passion__image img {
+width : 150px;
+height : 150px;
+margin : 0 auto 2.4rem 30%;
+text-align : center;
+}
+.sub-title {
+font-size : 1.7rem;
+margin-bottom : 1.6rem;
+color : #072142;
+text-align : center;
+letter-spacing : 0.2em;
+line-height : 1.2;
+font-family : "futura_m";
+word-break : break-all;
+font-weight : bold;
+}
+.passion__text {
+font-size : 1rem;
+line-height : 1.5;
+}
+.heading {
+font-size : 3rem;
+font-weight : bold;
+color : #072142;
+letter-spacing : 0.2em;
+font-family : "futura_m";
+margin-right : 3.2rem;
+width : 100%;
+}
+.yana_photo {
+width : 400px;
+}
+.skill-set__flex {
+display : flex;
+flex-wrap : wrap;
+justify-content : space-between;
+}
+.skill-set__list {
+width : 47%;
+}
+.skill-set__item:first-child {
+margin-top : 0;
+}
+.skill-set__item {
+margin-top : 6.4rem;
+display : flex;
+justify-content : space-between;
+align-items : center;
+}
+.skill-set__icon {
+width : 10.6382%;
+align-self : center;
+}
+.skill-set__icon img {
+height : 60px;
+margin-left : -25px;
+}
+.skill-set__detail {
+width : 85.1063%;
+}
+.skill-set__meta {
+margin-bottom : 0.8rem;
+display : flex;
+justify-content : space-between;
+}
+.skill-set__name {
+display : flex;
+align-items : flex-end;
+}
+.skill-set__high {
+color : #ff4d5a;
+}
+.small-title {
+font-size : 2.4rem;
+font-weight : bold;
+color : #072142;
+letter-spacing : 0.1em;
+line-height : 1.2;
+font-family : "futura_de";
+}
+.skill-set__year {
+font-size : 1rem;
+line-height : 1.2;
+color : #c0c5ca;
+margin-left : 0.8rem;
+letter-spacing : 0.2em;
+}
+.skill-set__ratio {
+font-size : 1.6rem;
+line-height : 1.2;
+color : #072142;
+}
+.skill-set__bar {
+width : 100%;
+height : 1.4rem;
+background : #fff;
+position : relative;
+border-radius : 10px;
+box-shadow : 0 5px 15px 0 rgba(7, 33, 66, 0.15);
+}
+.skill-set__bar.p80.in::after {
+animation : ratio80 2.5s ease;
+}
+.skill-set__bar.p70.in::after {
+animation : ratio70 2.5s ease;
+}
+.skill-set__bar.p60.in::after {
+animation : ratio60 2.5s ease;
+}
+.skill-set__bar.p80::after {
+background-image : linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+width : 80%;
+}
+.skill-set__bar.p70::after {
+background-image : linear-gradient(to right, #072142, #8c2b7a 65%, #ff4d5a);
+width : 70%;
+}
+.skill-set__bar.p60::after {
+background-image : linear-gradient(to right, #072142, #8c2b7a 65%, #ff4d5a);
+width : 70%;
+}
+.skill-set__bar::after {
+content : "";
+position : absolute;
+left : 0;
+top : 0;
+height : 100%;
+border-radius : 10px;
+width : 20%;
+}
+.footer {
+width : 100%;
+padding : 2rem 0;
+margin-top : 6rem;
+text-align : center;
+background-image : linear-gradient(101deg, #072142, #8c2b7a 52%, #ff4d5a);
+position : relative;
+z-index : 100;
+}
+.footer p {
+margin-bottom : 2.4rem;
+}
+.footer a {
+display : block;
+margin-bottom : 2.4rem;
+font-size : 2.8rem;
+line-height : 1.3;
+color : #fff;
+letter-spacing : 0.2em;
+transition : 0.3s;
+}
