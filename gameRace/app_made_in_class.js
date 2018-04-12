@@ -38,7 +38,7 @@ class Unit{
     this.arr = arr;
   }
  step() {
-    this.possion += this.side; 
+    this.position += this.side; 
 }
  reverse() {
     this.side *= -1;
@@ -68,7 +68,7 @@ isCollision() {
       if(+arrFromStr[0] === state.sign) {
         let unit = new Unit();
         arrFromStr = state.sign;
-        state.element.div.textContent += arrFromStr;
+        state.element.div.textContent = arrFromStr.join("");
         state.added = false;
         state.arr.push(unit);
       }
